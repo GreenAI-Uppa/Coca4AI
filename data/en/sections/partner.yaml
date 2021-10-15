@@ -1,0 +1,32 @@
+section:
+  name: Partners 
+  id: partners
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  template: sections/about.html
+
+designation: 3 laboratories and 1 data center 
+
+summary: 'This project is a collaboration between the Lip6, the LISN and the GrennAIUppa laboratories. The application context will be centred around the LabIA.'
+
+details: 'LabIA Data Center: it contains 12 stations dedicated to AI and is used by 5 other laboratories. It has a representative size of to analyze the consumption of AI models and user practices. The results will be directly applicable to most of the industrial and university data centers. See also lab-ia.fr for more details on the infrastructure.'
+
+badges:
+- type: certification
+  name: GreenAIUppa 
+  url: "https://greenai-uppa.github.io/"
+  badge: "https://sport.univ-pau.fr/_resources/Images/SAE%2520UPPA/Pr%25C3%25A9sentation/LogoUPPAcouleurRVB.png"
+
+- type: certification
+  name: Lip6 
+  url: "https://www.lip6.fr/"
+  badge: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/LIP6.gif/338px-LIP6.gif"
+
+- type: certification
+  name: LISN
+  url: "https://www.universite-paris-saclay.fr/en/news/lisn-new-digital-science-laboratory-paris-saclay"
+  badge: "https://mediaserver.responsesource.com/press-release/tb_lrg/78587/universit%C3%A9-Paris-Saclay.jpg"
+
+
+

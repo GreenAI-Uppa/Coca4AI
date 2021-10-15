@@ -1,0 +1,19 @@
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Measuring the Carbon footprint of AI
+
+# a summary about you
+summary: 'Acceleration and use of Artifical Intelligence raises the issue of its environmental cost, regarding its deployment on numerous data centers and the generalisation of more than ever power and data hungry algorithms. There is currently little work about this aspect, however, bad software optimization and user practices is significant energy waste, it has been measured as half of the consumption of a data center. The first need to reverse this trend is an accurate measurement procedure of the carbon footprint, both at the scale of the whole data center, and at the finer grain scale of the algorithms. Our goal in this project is to answer the following questions: 
+
+"Does this architecture consumes more than another?"
+"How much energy do I save if I sacrifice a few percent of accuracy?"'
+
+details: 'We plan to build multi-scale models to measure carbone footprint and evaluate the compromise "environmental impact"/"algorithm accuracy" for deep learning algorithms at the scale of a data center: algorithm iteration, user, node, whole infrastructure. The measurements of the power consumption will come from accurate external power meters, in build computer sensors as well data from the facilities such as the cooling system. The collected data will enable to identify new opportunities applicable to other large data centers.'
+
