@@ -127,6 +127,19 @@
         {{ end}}
       {{ end }}
     </ul>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h2></h2>
+  {{ if $author.news }}
+      {{ range $author.news}}
+          {{ . }} 
+      {{ end }}
+  {{ end }}
+
+
     {{ if $sections }}
       {{ range first 1 (where (sort $sections "section.weight") ".section.enable" true) }}
         {{ $sectionID := replace (lower .section.name) " " "-"  }}
