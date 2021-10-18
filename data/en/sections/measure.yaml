@@ -1,0 +1,20 @@
+section:
+  name: What we do 
+  id: measure
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: How to measure 
+
+# a summary about you
+summary: '**Energy consumption** is not trivial, its more complicated than plugging a power meter to a computer. Nowadays, there is a growing interest in the machine learning and IT community and several libraries have been build based on tools such as RAPL and NVIDIA-SMI. We walk this line and are developping our IAPowerMeter. The final goal is to give to engineers and data scientists the capacity to measure the consumption of deep/machine learning algorithms. However, such approaches are dependant on the build-in sensors and in any case, will miss some energy spending such as fans, harddrive and so on. For this reason, CoCa4AI will complement its study with external powermeters in order to obtain complete measures and evaluate the gaps of the common libraries.' 
+
+resume: "https://github.com/GreenAI-Uppa/AIPowerMeter"
+
+
+
+details: '**Carbon footprint** pushes the analysis one step further as the complete life cycle of the infratstructure has to been taken into account. CoCa4AI will be the first project to perform this anlysis at the scale of a data center and at a fine grained resolution of user activity and node computation.'
+
