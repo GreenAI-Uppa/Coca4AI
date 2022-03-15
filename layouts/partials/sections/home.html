@@ -133,12 +133,13 @@
   <br>
   <br>
   <h2></h2>
+  <ul>
   {{ if $author.news }}
       {{ range $author.news}}
-          Join us at our <a href="https://greenai-uppa.github.io/power_efficient_deep_learning/">Efficient Deep Learning Workshop</a> the 17th of november!
+           <li>{{ . }}</li>
       {{ end }}
   {{ end }}
-
+  </ul>
 
     {{ if $sections }}
       {{ range first 1 (where (sort $sections "section.weight") ".section.enable" true) }}
